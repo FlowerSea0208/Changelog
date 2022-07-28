@@ -1,3 +1,15 @@
+Device changes:
+==============================
+drop DTC and LLVM flags for building kernel
+overlay: align the vertical position of expanded statusbar
+overlay: Update power_profle from CAF
+overlay: add config and nodes for Smart charging
+wifi: Disable RX wakelock feature
+set Surfaceflinger refresh rate timers
+sepolicy: Remove duplicate wakeup label
+------------------------------
+ROM changes:
+==============================
  Update battery info every second when device is charging
  LockscreenCharging: Add divisor current overlay
  LockscreenCharging: Calculate power from voltage and current
