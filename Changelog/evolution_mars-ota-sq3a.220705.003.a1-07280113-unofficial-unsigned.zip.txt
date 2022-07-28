@@ -1,0 +1,51 @@
+ Update battery info every second when device is charging
+ LockscreenCharging: Add divisor current overlay
+ LockscreenCharging: Calculate power from voltage and current
+ SystemUI: Fix current formatting on lockscreen
+ SystemUI: Cancel adding shunt configuration for lock screen charging
+ SystemUI: respect statusbar left padding in QS clock & keyguard carrier
+ PackageManagerService: Load APKs from system_ext/framework
+ permissions: Grant `ACCESS_FINE_LOCATION` to broadcast receiver intents
+ permissions: Update cellbroadcastreceiver allowlist
+ Evolver: Secondary color for lockscreen clock toggle
+ themes: fonts: Import Oppo Sans
+ Tethering: Use Cloudflare DNS instead of Google DNS
+ Add AdGuard DNS as a private DNS provider
+ Add Cloudflare DNS as a private DNS provider
+ Remove DUN requirement for tethering
+ Connectivity: Add capability to allow tethering to use VPN upstreams
+ Turn off carrier provisioning by default to allow tethering
+ LayoutInflater: remove less frequently used apps
+ [REPICK] SettingsProvider: Handle WRITE_DEVICE_CONFIG permission denial for gms
+ reTicker: Do not show when content/icon is null
+ base: Force fullscreen for Google Dialer
+ SystemUI: Remove user setup check for alarm icon
+ SystemUI: Grant INTERACT_ACROSS_USERS_FULL permission for smartspace
+ PixelPropsUtils: Fix issue with text select and copy
+ GameSpace: Fix inconsistencies for multi-user usage
+ Battery: Add summary to some preferences
+ Settings: Add a preference to battery optimization page
+ Settings: Allow to skip confirmation in biometric auth dialog
+ Battery: Show unavailable instead of 0.0℃ for battery temp
+ development: Enable force resizable activities by default
+ development: Enable freeform windows by default
+ config: Drop unnecessary permissions whitelist
+ Fix inaccuracy in biometric timeout
+ Smart Charging: add reset battery stats option
+ Evolver: Add toggle to disable charging animation
+ Settings: Smart Charging
+ SystemUI: media_view: align song and artist name text
+ GameSpace: Change tile enabled/disabled case for consistency
+ GameSpace: Re-sort ringer mode
+ GameSpace: Remove unimplemented method from Danmaku service
+ GameSpace: Properly filter duplicated notification
+ GameSpace: Port in-game danmaku feature
+ GameSpace: Let's take advantage of reTicker
+ GameSpace: Rearrange strings
+ GameSpace: Adjust views to avoid overlap
+ GameSpace: Drop disable heads up option
+ GameSpace: Expose icon in launcher
+ GameSpace: Fix panel view not losing focus when touching outside
+ GameSpace: Fix default ringer mode value
+ GameSpace: Add do not change option to ringer mode
+ New Crowdin updates
